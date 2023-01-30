@@ -17,37 +17,29 @@ const input = (e) =>{
 
         var resref = document.getElementById("result");
 
-        // resref.innerHTML = 
-                            // `<img src=${data.image_results[0].sourceUrl} alt="not found">`
-
                             // for(let i = 0; i < 99; i++) {
                             //     resref.innerHTML = `<img src=${data.image_results[i].sourceUrl} alt="not found">`;
                             // }
-                            resref.innerHTML = 
-                            
-                            `   <img src=${data.image_results[0].sourceUrl} alt="not found">
-                                <img src=${data.image_results[1].sourceUrl} alt="not found">
-                                <img src=${data.image_results[2].sourceUrl} alt="not found">
-                                <img src=${data.image_results[3].sourceUrl} alt="not found">
-                                <img src=${data.image_results[4].sourceUrl} alt="not found">
-                                <img src=${data.image_results[5].sourceUrl} alt="not found">
-                                <img src=${data.image_results[6].sourceUrl} alt="not found">
-                                <img src=${data.image_results[7].sourceUrl} alt="not found">
-                                <img src=${data.image_results[8].sourceUrl} alt="not found">
-                                <img src=${data.image_results[9].sourceUrl} alt="not found">
-                                <img src=${data.image_results[10].sourceUrl} alt="not found">
-                                <img src=${data.image_results[11].sourceUrl} alt="not found">
-                                <img src=${data.image_results[12].sourceUrl} alt="not found">
-                                <img src=${data.image_results[13].sourceUrl} alt="not found">
-                                <img src=${data.image_results[14].sourceUrl} alt="not found">
-                                <img src=${data.image_results[15].sourceUrl} alt="not found">
 
+                resref.innerHTML = 
+                    `   <img src=${data.image_results[0].sourceUrl} alt="not found">
+                        <img src=${data.image_results[1].sourceUrl} alt="not found">
+                        <img src=${data.image_results[2].sourceUrl} alt="not found">
+                        <img src=${data.image_results[3].sourceUrl} alt="not found">
+                        <img src=${data.image_results[4].sourceUrl} alt="not found">
+                        <img src=${data.image_results[5].sourceUrl} alt="not found">
+                        <img src=${data.image_results[6].sourceUrl} alt="not found">
+                        <img src=${data.image_results[7].sourceUrl} alt="not found">
+                        <img src=${data.image_results[8].sourceUrl} alt="not found">
+                        <img src=${data.image_results[9].sourceUrl} alt="not found">
+                        <img src=${data.image_results[10].sourceUrl} alt="not found">
+                        <img src=${data.image_results[11].sourceUrl} alt="not found">
+                        <img src=${data.image_results[12].sourceUrl} alt="not found">
+                        <img src=${data.image_results[13].sourceUrl} alt="not found">
+                        <img src=${data.image_results[14].sourceUrl} alt="not found">
+                        <img src=${data.image_results[15].sourceUrl} alt="not found">
 
-
-                            `
-                          
-
-
+                    `
     })
 }
 
