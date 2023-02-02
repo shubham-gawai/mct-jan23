@@ -4,7 +4,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color:#27b26fd3;
+    background-color:#4a678e;
 }
 
 *{
@@ -18,7 +18,8 @@ body{
 }
 .navbar{
     border: 1.2px solid green;
-    background-color: #0f7845cb;
+    background-color:#173761;
+    /* height: 54px; */
     width: 100%;
     position: sticky;
 }
@@ -26,7 +27,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 16px;
 }
@@ -35,7 +36,7 @@ ul li{
     list-style-type: none;
 }
 .navbar ul li:hover{
-    color: rgb(162, 38, 19);
+    color: rgba(11, 176, 11, 0.708);
 }
 
 h1{
@@ -60,7 +61,8 @@ h1{
     outline:none;
     padding: 12px;
     font-size: 16.5px;
-    background-color: #28c17789;
+    background-color:#4a678e;
+
 }
 #inp1::placeholder{
     color: rgba(0, 0, 0, 0.651);
